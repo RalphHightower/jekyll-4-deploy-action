@@ -1,0 +1,8 @@
+name: Jekyll 4 GitHub Action Deployment
+description: 'Deploy Jekyll site(s) into gh-pages using this custom GitHub Action.'
+branding: 
+  icon: 'package'
+  color: 'orange'
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
